@@ -13,6 +13,8 @@ First of all open the `SpecRunner.html`, you'll see that all the errors are fail
 
 - Inside the `thirdPromise()` function you'll need to create and return a promise that return resolve with a string with `done` if the variable `isError`, received as argument, is false and reject with a string with `error` if the variable `isError` is true
 
+Dentro de la función `thirdPromise()` necesitarás crear y devolver una promesa que devuelva la resolución con una cadena con `hecho` si la variable `isError`, recibida como argumento, es falsa y rechazar con una cadena con `error` si la variable `isError` es verdadera
+
 2️⃣ **Second Part**
 
 - Change `fourthPromise()` from `.then()` to `async/await`
